@@ -1,0 +1,171 @@
+body {
+  background-image: url(https://i.pinimg.com/736x/c5/74/29/c57429af17abede6ef5cfa1d4a0d73f8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#id1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.9);
+  font-size: 60px;
+}
+
+h1 {
+  color: beige;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 46px;
+  color: #e70000;
+}
+h3 {
+  color: beige;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 24px;
+  color: #e70000;
+}
+
+#subtitulo {
+  text-decoration: underline;
+  text-decoration-color: rgb(235, 225, 225);
+  text-underline-position: under;
+}
+
+#id2 {
+  color: aliceblue;
+  font-family: "Times New Roman";
+}
+
+#id3 {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+div img {
+  width: 140px;
+  height: auto;
+  transition: 0.9s;
+}
+
+div img:hover {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  outline-offset: 10px;
+  transform: scale(1.09);
+}
+
+#capa img {
+  position: relative;
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-style: double;
+  border-radius: 15px;
+  border-color: #7a0303;
+}
+
+nav,
+button {
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a0303;
+  padding: 10px;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+}
+button:hover {
+ color: #7a0303;
+    background-color: black;
+}
+
+.trailer {
+  background-color: rgb(202, 202, 202);
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 200px;
+  margin: auto;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.trailer a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #bb0202;
+}
+
+.video-container {
+  border-radius: 10px;
+}
+
+video {
+  width: 80%;
+  max-width: 600px;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(122, 3, 3, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background: #111;
+  color: #fff;
+  flex-direction: column;
+}
+
+#tabela{
+    text-align: center;
+   font-size: 16px;
+   color: #ffffff;
+    font-family: Georgia, serif;
+}
+
+
+table{
+  border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table,td,tr {
+    border: 3px solid #000000;
+
+}
+
+th {
+    text-align: center;
+    border: 3px solid #000000;
+    background-color: #ff000085;
+    color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+th,td {
+    padding: 7px;
+    color: beige;
+}
+
+td {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #500000;
+}
+
+footer{
+    text-align: center;
+color:aliceblue;
+}

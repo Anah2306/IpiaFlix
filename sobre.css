@@ -1,0 +1,62 @@
+body {
+  background :linear-gradient(#000000, #7a0303);
+  font-family: "Times New Roman", Times, serif;
+}
+button,
+nav {
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a0303;
+  padding: 10px;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+}
+button:hover {
+   color: #7a0303;
+    background-color: black;
+  
+}
+#div1 {
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.9);
+  font-size: 25px;
+
+}
+
+#div2 {
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-right: 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border-radius: 25px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+color: #7a0303;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+footer{
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+color:aliceblue;
+margin-top: 100px;
+}
+

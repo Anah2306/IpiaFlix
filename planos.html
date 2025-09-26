@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IpiaFlix</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav id="navegacao">
+     <a href="index.html"><button><strong>Home</strong> </button></a>
+    <a href="series.html"><button><strong>Séries / Filmes</strong> </button></a>
+    <a href="sobre.html"><button><strong>Sobre Nós</strong></button></a>
+    <a href="login.html"><button><strong>Conta</strong> </button></a>
+  </nav>
+
+  <head>
+    <h1 id="Titulo">IpiaFlix</h1>
+
+  </head>
+
+  <h1>Escolha o melhor plano para você ↓</h1><br>
+
+  <div class="container">
+    <div class="card">
+      <button class="btn">Selecionar plano</button>
+      <h3>Padrão com anúncios<br>1080p</h3>
+      <p><b>Preço mensal: R$ 15,90</b></p>
+      <p><b>Resolução:</b> 1080p (Full HD)</p>
+      <p><b>Compatível com:</b> TV, computador, celular, tablet</p>
+      <p><b>Ao mesmo tempo:</b> 2 aparelhos</p>
+      <p><b>Suporte:</b> Via chat e e-mail</p>
+      <p><b>Anúncios:</b> Menos do que você pensa</p>
+      <p><b>Ideal para:</b> Quem quer economizar e não se importa com alguns anúncios</p>
+    </div>
+
+    <div class="card">
+      <button class="btn">Selecionar plano</button>
+      <h3>Padrão<br>1080p</h3>
+      <p><b>Preço mensal: R$ 34,90</b></p>
+      <p><b>Resolução:</b> 1080p (Full HD)</p>
+      <p><b>Compatível com:</b> TV, computador, celular, tablet</p>
+      <p><b>Ao mesmo tempo:</b> 2 aparelhos</p>
+      <p><b>Suporte:</b> Via chat, e-mail e telefone</p>
+      <p><b>Anúncios:</b> Sem anúncios</p>
+      <p><b>Ideal para:</b> Famílias pequenas que querem assistir sem anúncios</p>
+    </div>
+
+    <div class="card">
+      <button class="btn">Selecionar plano</button>
+      <h3>Premium<br>4K + HDR</h3>
+      <p><b>Preço mensal: R$ 49,90</b></p>
+      <p><b>Resolução:</b> 4K (Ultra HD) + HDR</p>
+      <p><b>Compatível com:</b> TV, computador, celular, tablet</p>
+      <p><b>Ao mesmo tempo:</b> 4 aparelhos</p>
+      <p><b>Suporte:</b> Atendimento prioritário 24h</p>
+      <p><b>Anúncios:</b> Sem anúncios</p>
+      <p><b>Ideal para:</b> Quem busca a melhor imagem, som e acessos para toda a família</p>
+    </div>
+  </div>
+  <div class="actions">
+    <a href="login.html" class="btn-next">Próximo</a>
+  </div>
+  <script>
+    const cards = document.querySelectorAll(".card");
+    const buttons = document.querySelectorAll(".btn");
+
+    buttons.forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        // Remove seleção anterior
+        cards.forEach(c => c.classList.remove("selected"));
+        // Seleciona o plano atual
+        cards[index].classList.add("selected");
+      });
+    });
+  </script>
+
+  <header>
+    <footer class="rodape" id="contato">
+      <div class="rodape-div">
+
+        <div class="rodape-div-1">
+          <div class="rodape-div-1-coluna">
+            <p class="rodape-direitos"> <strong> Entre em Contato </strong></p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="rodape-direitos"> <strong>Contato</strong> <br>(19)99369-8871 <br></p>
+      <p class="rodape-direitos"><strong>Email: IpiaFlix@gmail.com </strong></p>
+      <p class="rodape-direitos"> <strong> Redes: @IpiaFlix </strong> <br></p>
+      <p class="rodape-direito">Copyright © 2025 – Todos os Direitos Reservados.</p>
+    </footer>
+
+  </header>
+
+</body>
+
+</html>

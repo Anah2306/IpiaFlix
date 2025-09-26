@@ -1,0 +1,130 @@
+body {
+  background-image: url(https://i.pinimg.com/1200x/3b/88/8a/3b888ae33caddd009ea0262a6dace304.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+button,
+nav {
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a0303;
+  padding: 10px;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+
+}
+button:hover {
+    color: #7a0303;
+    background-color: black;
+}
+/* Container do login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+  color: #f5f5f5;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: rgba(255, 255, 255, 0.9) 2px 2px 4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 5px rgb(255, 255, 255);
+}
+/* Estilos do cabeçalho */
+header h1 {
+    font-size: 3rem;
+    color: #E50914;
+    margin-bottom: 20px;
+}
+
+/* Caixa de login */
+.login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.login-box h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Lembre-se de mim */
+.remember-me {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+/* Botão de login */
+.btn-login {
+    width: 100%;
+    padding: 5px 75px 5px 75px;
+    background-color: #E50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #d40812;
+}
+
+/* Links */
+a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Estilo da página de login */
+.login-box p {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.login-box p a {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 300px;
+}
